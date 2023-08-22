@@ -19,23 +19,34 @@
             <legend>Date of Birth:</legend>
             <div class="inp">
                 <label for="day">DAY</label>
-                <input  id="day" type="number" value="1">
+                <input min="1" max="31"  id="day" type="number" value="1">
             </div>
             <div class="inp">
                 <label  for="month">MONTH</label>
-                <input   id="month" type="number" value="1">
+                <input min="1" max="12"  id="month" type="number" value="1">
             </div>
             <div class="inp">
                 <label for="year">YEAR</label>
-                <input data() id="year" type="number" value="2023">
+                <input  id="year" type="number" value="2023">
             </div>
         </form>
         <div class="line"></div>
         <div class="result">
 
-            <h2 id="county"> 0 <span>years</span></h2>
-            <h2 id="countm"> 0 <span>months</span></h2>
-            <h2 id="countd"> 0 <span>days</span></h2>
+            <h2 id="county"> 0 </h2>
+            <h2 id="countm"> 0 </h2>
+            <h2 id="countd"> 0 </h2>
+        </div>
+        <div class="results_plus">
+            <h3>Singular Expression:</h3>
+            <div class="grid-container">
+                <h4 id="countmplus">  </h4>
+                <h4 id="countwplus">  </h4>
+                <h4 id="countdplus">  </h4>
+                <h4 id="counthplus"> </h4>
+                <h4 id="countmiplus">  </h4>
+                <h4 id="countsplus">  </h4>
+            </div>
         </div>
         <!-- <div class="unit">
             <h3>Exact age in different units</h3>

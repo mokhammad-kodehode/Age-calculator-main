@@ -89,6 +89,17 @@ transition: 2s ease-in;
 
 }
 
+.results_plus{
+    display: none;
+    gap: 1rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1.5rem;
+}
+
 h1 {
     font-size: 62px;
     margin: 0;
@@ -107,8 +118,22 @@ h2 {
     padding: 0;
 }
 
+h3 {
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+
 span {
     color: rgb(27, 26, 26);
+}
+
+h4 {
+    margin: 0;
+    color: blueviolet;
+    text-align: center;
+    padding: 5px;
+    border-bottom: 1px solid blueviolet;
 }
 
 
